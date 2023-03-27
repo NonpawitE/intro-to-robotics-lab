@@ -1,5 +1,9 @@
 # Introduction to Robotics | Lab Session
 
+## Table of Content
+- [Arduino Setup](#arduino-setup)
+- [Library Installing](#library-installing)
+
 ## Arduino Setup
 
 * Download Arduino from [here](https://www.arduino.cc/en/software)
@@ -28,3 +32,13 @@
   ![image](https://user-images.githubusercontent.com/95632474/227888471-8fc31d71-677c-4688-85df-bdb868ca9eab.png)
 
 * Done!
+
+## Library Installing
+
+* First, download the library from [here](https://github.com/NonpawitE/intro-to-robotics-lab/releases/download/assets/libraries.zip)
+* Extract the zip file
+* Copy all the folders inside the extracted folder to your Arduino library folder
+```
+Documents > Arduino > libraries
+```
+* Restart Arduino IDE and done!
