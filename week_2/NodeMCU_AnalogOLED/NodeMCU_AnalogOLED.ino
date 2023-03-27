@@ -17,7 +17,7 @@ void loop()
 {
   OLED.clearDisplay();
   // Set display color as white
-  OLED.setTextColor(WHITE);          
+  OLED.setTextColor(WHITE);
   // Set start position of display
   OLED.setCursor(15, 0);
   // Set text size x2
