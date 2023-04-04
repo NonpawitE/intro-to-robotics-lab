@@ -27,7 +27,7 @@ void reconnect()
     else 
     {
       Serial.print("failed, rc=");
-      Serial.print(client.state())
+      Serial.print(client.state());
       Serial.println("try again in 5 seconds");
       delay(5000);
     } 
@@ -50,13 +50,13 @@ void setup()
     Serial.print(".");
   }
 
-  Serial.println()
+  Serial.println();
   Serial.println("WiFi connected");
   Serial.println("IP address: ");
   Serial.println(WiFi.localIP());
 
   // Initialize with MQTT
-  client.setServer(mqtt_server, mqtt_server);
+  client.setServer(mqtt_server, mqtt_port);
 }
 
 void loop() 
